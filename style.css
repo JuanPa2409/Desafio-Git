@@ -1,0 +1,79 @@
+/* Restaurar */
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+/* Header */
+.Menu-Container {
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 3%;
+    border-bottom: 10px solid orangered;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Menu {
+    width: 80%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/* Sección 1 */
+
+.Inicio-Container {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+
+.Inicio-two {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    align-items: center;
+}
+
+.Inicio-two img {
+    height: 60%;
+    width: 40%;
+}
+
+.Inicio-Container p {
+    font-size: 30px;
+    font-family: 'Bakbak One', cursive;
+    align-content: center;
+    
+}
+
+
+/* Footer */
+.Footer-Container {
+    padding: 1%;
+    background-color: black;
+    margin-top: 20px;
+    border-top: 10px solid orangered;
+}
+
+.Footer {
+    display: flex;
+    width: 105%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Facebook img {
+    width: 50%;
+}
+
+.Whatsapp img {
+    width: 50%;
+}
