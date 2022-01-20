@@ -47,8 +47,11 @@
 .Inicio-two img:hover {
     transform: scale(2);
     margin: 100px auto;
-    
+    transition: all 3s ease-in-out;
 }
+
+
+
 
 .Inicio-Container p {
     font-size: 30px;
